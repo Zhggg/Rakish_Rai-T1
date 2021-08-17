@@ -20,6 +20,7 @@
 h1{
     font-family: 'Cinzel Decorative', cursive;
     color: var(--primary-color);
+    margin-left: -150px;
 
 }
 
@@ -37,15 +38,15 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 100px;
+    padding: 50px;
+    margin-right: -150px;
 }
 
 .Nmenu{
     color: rgb(78, 78, 192);
-    font-size: 25px;
+    font-size: 27px;
     text-decoration: none;
     margin: 0px 10px;
-    padding-bottom: 100px;
 }
 
 .Nmenu:hover{
@@ -68,18 +69,18 @@ i:hover{
 
 /*Box with content*/
 .Fbox{
-    width: 1300px;
-    height: 590px;
-    margin: 70px 50px 50px 120px;
+    width: 1510px;;
+    height: 695px;
+    margin: 265px 10px 0px 10px;
     background-color: white;
     box-shadow: 12px 10px rgb(31, 30, 30);
 }
 
 .image{
-    width: 1000px;
-    height: 590px;
+    width: 1110px;
+    height: 589px;
     background-image: url('../image/delivery.png');
-    margin: -133px -20px 50px 300px;
+    margin: -435px -20px -50px 390px;
 }
 /*Details*/
 .text{
@@ -90,7 +91,8 @@ i:hover{
 h2{
     font-family: 'Cinzel', cursive;
     font-size: 50px;
-    margin: 0px 0px 0px 75px;
+    margin-left: 10px;
+    padding: 300px 0px;
     color: var(--heading-color);
 }
 
@@ -99,7 +101,8 @@ p{
     line-height: 28px;
     text-align: left;
     font-size: 16px;
-    margin: 0px 0px 0px 80px;
+    margin: -270px 0px 0px 90px;
+    padding: -300px 0px 0px 0px;
 }
 
 /*Learn More Button*/
@@ -111,7 +114,7 @@ p{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 215px 4px 0px;
+    margin: 35px 215px 4px -60px;
     cursor: pointer;
     background-color: rgb(175, 80, 80);
 }
